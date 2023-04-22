@@ -1,8 +1,4 @@
-<%-- 
-    Document   : login
-    Created on : Nov 2, 2022, 11:09:44 AM
-    Author     : DELL
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
