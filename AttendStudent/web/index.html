@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/indexcss.css"/>
+    </head>
+    <body>
+        <div>
+            <div style="text-align: center">
+            Campus:<select name="campus">
+                <option>Select Campus</option>
+                <option selected="selected" value="HL">FU-HL</option>
+                <option value="HCM">FU-HCM</option>
+                <option value="DN">FU-DN</option>
+                <option value="CT">FU-CT</option>
+                <option value="QN">FU-QN</option>
+            </select>
+            </div>
+            <div style="text-align: center">
+            Lecturer: <input type="text" name="lecturer" value=""/>
+            <input type="submit" value="View"/>
+            </div>
+            <br/>
+            <table style="border-bottom: 0 none">
+                <thead>
+                    <tr>
+                        <th rowspan="2">
+                            <strong>YEAR</strong> <select>
+                                <option value="2020">2020</option>
+                                <option value="2021">2021</option>
+                                <option selected="selected" value="2022">2022</option>
+                                <option value="2023">2023</option>
+                                <option value="2024">2024</option>
+                                <option value="2025">2025</option>
+                            </select>
+                            <br/>
+                            WEEK <select>
+                                <option value="1">03/01 To 09/01</option> 
+                                <option value="2">10/01 To 16/01</option> 
+                                <option  selected="selected" value="3">17/01 To 23/01</option> 
+                                <option value="4">31/01 To 06/02</option> 
+                                <option value="5">07/02 To 13/02</option> 
+                                <option value="6">14/02 To 20/03</option> 
+                                <option value="7">21/02 To 27/02</option> 
+                                <option value="8">28/02 To 06/03</option> 
+                                <option value="9">07/03 To 13/03</option>  
+                                <option value="10">14/03 To 20/03</option> 
+                                <option value="11">21/03 To 27/03</option> 
+                            </select>
+                        </th>
+                        <th>MON</th>
+                        <th>TUE</th>
+                        <th>WED</th>
+                        <th>THU</th>
+                        <th>FRI</th>
+                        <th>SAT</th>
+                        <th>SUN</th>
+                    </tr>
+                    <tr>
+                        <th>17/01</th>
+                        <th>18/01</th>
+                        <th>19/01</th>
+                        <th>20/01</th>
+                        <th>21/01</th>
+                        <th>22/01</th>
+                        <th>23/01</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <td>Slot 1 </td>
+                        <td>
+                            <p><a href="http://localhost:9999/MyProject/activity.html" style="color:#337ab7">IOT1702
+                                    <br>-PRF192
+                                    <br> at BE-301
+                                </a>
+
+                                <a> <br>(<font color="Green">Attended</font>)
+                                </a>
+                                <a class="label label-primary" href="">Edunext</a>
+                            </p>
+                        </td>
+                        <td>-</td>
+                        <td>
+                            <p><a href="http://localhost:9999/MyProject/activity.html" style="color:#337ab7">IOT1702
+                                    <br>-PRF192
+                                    <br> at BE-301
+                                </a>
+
+                                <a> <br>(<font color="Green">Attended</font>)
+                                </a>
+                                <a class="label label-primary" href="">Edunext</a>
+                            </p>
+                        </td>
+                        <td>-</td>
+                        <td>
+                            <p><a href="http://localhost:9999/MyProject/activity.html" style="color:#337ab7">IOT1702
+                                    <br>-PRF192
+                                    <br> at BE-301
+                                </a>
+
+                                <a> <br>(<font color="Red">Not yet</font>)
+                                </a>
+                                <a class="label label-primary" href="">Edunext</a>
+                                <br>
+                                <span class="label label-success">(7:30-9:00)</span>
+                            </p>
+                        </td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>Slot 2 </td>
+                        <td>
+                            <p><a href="" style="color:#337ab7">AI1604
+                                    <br>-DBI202
+                                    <br> at BE-315
+                                </a>
+
+                                <a> <br>(<font color="Green">Attended</font>)
+                                </a>
+                                <a class="label label-primary" href="">Edunext</a>
+                            </p>
+                        </td>
+                        <td>-</td>
+                        <td>  
+                            <p><a href="" style="color:#337ab7">AI1604
+                                    <br>-DBI202
+                                    <br> at BE-315
+                                </a>
+
+                                <a> <br>(<font color="red">Not yet</font>)
+                                </a>
+                                <a class="label label-primary" href="">Edunext</a>
+                                <br>
+                                <span class="label label-success">(9:10-10:40)</span>
+                            </p>
+                        </td>
+                        <td>
+                            <p><a href="" style="color:#337ab7">SE1501-NET
+                                    <br>-PRU221m
+                                    <br> at DE-331
+                                </a>
+                                <a> <br>(<font color="red">Not yet</font>)
+                                </a>
+                                <span class="label label-success">(9:10-10:40)</span>
+                            </p>
+                        </td>
+                        <td>
+                            <p><a href="" style="color:#337ab7">AI1604
+                                    <br>-DBI202
+                                    <br> at BE-315
+                                </a>
+                                <a> <br>(<font color="red">Not yet</font>)
+                                </a>
+                                <a class="label label-primary" href="">Edunext</a>
+                                <br>
+                                <span class="label label-success">(9:10-10:40)</span>
+                            </p>
+                        </td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>Slot 3 </td>
+                        <td>
+                            <p><a href="" style="color:#337ab7">SE1610
+                                    <br>-PRJ301
+                                    <br> at DE-217
+                                </a>
+
+                                <a> <br>(<font color="green">Attended</font>)
+                                </a>
+                                <a class="label label-primary" href="">Edunext</a>
+                            </p>
+                        </td>
+                        <td>  
+                            <p><a href="" style="color:#337ab7">SE1501-NET
+                                    <br>-PRU221m
+                                    <br> at DE-331
+                                </a>
+                                <a> <br>(<font color="green">Attended</font>)
+                                </a>
+                            </p>
+                        </td>
+                        <td>
+                            <p><a href="" style="color:#337ab7">SE1610
+                                    <br>-PRJ301
+                                    <br> at DE-217
+                                </a>
+
+                                <a> <br>(<font color="Red">Not yet</font>)
+                                </a>
+                                <a class="label label-primary" href="">Edunext</a>
+                                <br>
+                                <span class="label label-success">(10:50-12:20)</span>
+                            </p>
+                        </td>
+                        <td>  
+                            <p><a href="" style="color:#337ab7">SE1501-NET
+                                    <br>-PRU221m
+                                    <br> at DE-331
+                                </a>
+                                <a> <br>(<font color="red">Not yet</font>)
+                                </a>
+                                <span class="label label-success">(10:50-12:20)</span>
+                            </p>
+                        </td>
+                        <td>
+                            <p><a href="" style="color:#337ab7">SE1610
+                                    <br>-PRJ301
+                                    <br> at DE-217
+                                </a>
+
+                                <a> <br>(<font color="Red">Not yet</font>)
+                                </a>
+                                <a class="label label-primary" href="">Edunext</a>
+                                <br>
+                                <span class="label label-success">(10:50-12:20)</span>
+                            </p>
+                        </td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>Slot 4 </td>
+                        <td>
+                            <p><a href="" style="color:#337ab7">SE1608
+                                    <br>-PRJ301
+                                    <br> at DE-222
+                                </a>
+
+                                <a> <br>(<font color="green">Attended</font>)
+                                </a>
+                                <a class="label label-primary" href="">Edunext</a>
+                            </p>
+                        </td>
+                        <td>   
+                            <p><a href="" style="color:#337ab7">SE1616
+                                    <br>-PRJ301
+                                    <br> at BE-101
+                                </a>
+
+                                <a> <br>(<font color="green">Attended</font>)
+                                </a>
+                                <a class="label label-primary" href="">Edunext</a>
+                            </p>
+                        </td>
+                        <td>
+                            <p><a href="" style="color:#337ab7">SE1608
+                                    <br>-PRJ301
+                                    <br> at DE-222
+                                </a>
+
+                                <a> <br>(<font color="Red">Not yet</font>)
+                                </a>
+                                <a class="label label-primary" href="">Edunext</a>
+                                <br>
+                                <span class="label label-success">(12:50-14:20)</span>
+                            </p>
+                        </td>
+                        <td>
+                            <p><a href="" style="color:#337ab7">SE1616
+                                    <br>-PRJ301
+                                    <br> at BE-101
+                                </a>
+
+                                <a> <br>(<font color="Red">Not yet</font>)
+                                </a>
+                                <a class="label label-primary" href="">Edunext</a>
+                                <br>
+                                <span class="label label-success">(12:50-14:20)</span>
+                            </p>
+                        </td>
+                        <td> 
+                            <p><a href="" style="color:#337ab7">SE1608
+                                    <br>-PRJ301
+                                    <br> at DE-222
+                                </a>
+
+                                <a> <br>(<font color="Red">Not yet</font>)
+                                </a>
+                                <a class="label label-primary" href="">Edunext</a>
+                                <br>
+                                <span class="label label-success">(12:50-14:20)</span>
+                            </p>
+                        </td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>Slot 5 </td>
+                        <td>
+                            <p><a href="" style="color:#337ab7">SE1611
+                                    <br>-PRJ301
+                                    <br> at DE-223
+                                </a>
+
+                                <a> <br>(<font color="green">Attended</font>)
+                                </a>
+                                <a class="label label-primary" href="">Edunext</a>
+                            </p>
+                        </td>
+                        <td>
+                            <p><a href="" style="color:#337ab7">SE1616
+                                    <br>-PRJ301
+                                    <br> at BE-101
+                                </a>
+
+                                <a> <br>(<font color="green">Attended</font>)
+                                </a>
+                                <a class="label label-primary" href="">Edunext</a>
+                            </p>
+                        </td>
+                        <td>
+                            <p><a href="" style="color:#337ab7">SE1611
+                                    <br>-PRJ301
+                                    <br> at DE-223
+                                </a>
+
+                                <a> <br>(<font color="Red">Not yet</font>)
+                                </a>
+                                <a class="label label-primary" href="">Edunext</a>
+                                <br>
+                                <span class="label label-success">(14:30-16:00)</span>
+                            </p>
+                        </td>
+                        <td>-</td>
+                        <td>
+                            <p><a href="" style="color:#337ab7">SE1611
+                                    <br>-PRJ301
+                                    <br> at DE-223
+                                </a>
+
+                                <a> <br>(<font color="Red">Not yet</font>)
+                                </a>
+                                <a class="label label-primary" href="">Edunext</a>
+                                <br>
+                                <span class="label label-success">(14:30-16:00)</span>
+                            </p>
+                        </td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>Slot 6 </td>
+                        <td>
+                            <p><a href="" style="color:#337ab7">SE1628
+                                    <br>-DBI202
+                                    <br> at DE-C204
+                                </a>
+
+                                <a> <br>(<font color="green">Attended</font>)
+                                </a>
+                                <a class="label label-primary" href="">Edunext</a>
+                            </p>
+                        </td>
+                        <td>-</td>
+                        <td>
+                            <p><a href="" style="color:#337ab7">SE1628
+                                    <br>-DBI202
+                                    <br> at DE-C204
+                                </a>
+
+                                <a> <br>(<font color="Red">Not yet</font>)
+                                </a>
+                                <a class="label label-primary" href="">Edunext</a>
+                                <br>
+                                <span class="label label-success">(16:10-17:40)</span>
+                            </p>
+                        </td>
+                        <td>-</td>
+                        <td>
+                            <p><a href="" style="color:#337ab7">SE1628
+                                    <br>-DBI202
+                                    <br> at DE-C204
+                                </a>
+
+                                <a> <br>(<font color="Red">Not yet</font>)
+                                </a>
+                                <a class="label label-primary" href="">Edunext</a>
+                                <br>
+                                <span class="label label-success">(16:10-17:40)</span>
+                            </p>
+                        </td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>Slot 7 </td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>
+                            <p><a href="" style="color:#337ab7">SWP490_G19
+                                    <br>-SWP490
+                                    <br> at AL-L402
+                                </a>
+
+                                <a> <br>(<font color="Red">Not yet</font>)
+                                </a>
+                                <a class="label label-primary" href="">Edunext</a>
+                                <br>
+                                <span class="label label-success">(18:00-19:30)</span>
+                            </p>
+                        </td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>Slot 8 </td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>
