@@ -1,0 +1,154 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 29, 2022, 10:19:57 AM
+    Author     : DELL
+*/
+
+
+html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+table {
+    font-size: 14px;
+    background-color: #fff;
+    border-collapse: collapse;
+    width: 100%;
+}
+th{
+    border-right: 1px solid #fff;
+    text-align: left;
+    padding: 2px;
+    text-transform: uppercase;
+    height: 23px;
+    background-color: #6b90da;
+    font-weight: normal;
+}
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+    background-color: blue;
+}
+tr {
+    background-color: #fff;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+td {
+    padding: 5px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+tbody th {
+    text-align: left;
+    padding: 2px;
+}
+a {
+    color: Blue;
+    text-decoration: none;
+}
+
+    a:hover {
+        color: #f4a460;
+        text-decoration: underline;
+    }
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+.label-success {
+    background-color: #5cb85c;
+}
+.label {
+    display: inline;
+    padding: 0.2em 0.6em 0.3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25em;
+}
+html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+table {
+    font-size: 14px;
+    background-color: #fff;
+    border-collapse: collapse;
+    width: 100%;
+}
+th{
+    border-right: 1px solid #fff;
+    text-align: left;
+    padding: 2px;
+    text-transform: uppercase;
+    height: 23px;
+    background-color: #6b90da;
+    font-weight: normal;
+}
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+    background-color: blue;
+}
+tr {
+    background-color: #fff;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+td {
+    padding: 5px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+tbody th {
+    text-align: left;
+    padding: 2px;
+}
+a {
+    color: Blue;
+    text-decoration: none;
+}
+
+    a:hover {
+        color: #f4a460;
+        text-decoration: underline;
+    }
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+.label-success {
+    background-color: #5cb85c;
+}
+.label {
+    display: inline;
+    padding: 0.2em 0.6em 0.3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25em;
+}

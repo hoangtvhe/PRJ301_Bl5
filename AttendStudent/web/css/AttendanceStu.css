@@ -1,0 +1,88 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Nov 7, 2022, 8:30:13 AM
+    Author     : DELL
+*/
+
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+body{
+    line-height: 22px;
+}
+table {
+    font-size: 15px;
+    background-color: #fff;
+    border-collapse: collapse;
+    width: 100%;
+}
+th {
+    border-right: 1px solid #fff;
+    text-align: left;
+    padding: 2px;
+    text-transform: uppercase;
+    height: 23px;
+    background-color: #6b90da;
+    font-weight: normal;
+}
+tr{
+    background-color: #fff;
+    border-bottom: 1px solid #f0f0f0;
+}
+td {
+    padding: 2px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+
+tbody th {
+    text-align:left;
+    padding: 2px;
+}
+b {
+    color: Blue;
+    font-size: 25px;
+    text-align: center;
+}
+#single{
+    font-size: 25px;
+    text-align: left;
+    background: no-repeat top left;
+    padding: 10px;
+    margin-bottom: 2px;
+    }
+    #absent{
+        color:red;
+    }
+    #style{
+        color:#6b90da;
+    }
+    #design{
+        vertical-align: top;
+    }
+    #present{
+        color:#5cb85c;
+    }
+.label-success {
+    background-color: #5cb85c;
+}
+.label {
+    display: inline;
+    padding: 0.2em 0.6em 0.3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25em;
+}
